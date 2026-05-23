@@ -4,7 +4,7 @@ An internal issue tracker REST API for software teams, built with Node.js, TypeS
 
 ## Live URL
 
-[This is the live link of the project.](devpulse-production-022c.up.railway.app)<br><br>
+[This is the live link of the project.](https://devpulse-production-022c.up.railway.app)<br><br>
 It should show `{"success":false,"message":"Route not found"}` upon loading in.
 
 ## Tech Stack
