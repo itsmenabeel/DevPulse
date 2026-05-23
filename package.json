@@ -1,7 +1,7 @@
 {
   "name": "devpulse",
   "version": "1.0.0",
-  "description": "DevPulse Issue Tracker API",
+  "description": "DevPulse Issue Tracker",
   "main": "dist/server.js",
   "scripts": {
     "build": "tsc",
