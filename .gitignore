@@ -2,3 +2,5 @@ node_modules/
 dist/
 .env
 *.log
+GUIDELINES.md
+PLAN.md
