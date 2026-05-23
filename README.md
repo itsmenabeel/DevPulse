@@ -2,6 +2,11 @@
 
 An internal issue tracker REST API for software teams, built with Node.js, TypeScript, and PostgreSQL.
 
+## Live URL
+
+[This is the live link of the project.](devpulse-production-022c.up.railway.app)<br><br>
+It should show `{"success":false,"message":"Route not found"}` upon loading in.
+
 ## Tech Stack
 
 - **Runtime:** Node.js 24 + TypeScript (strict mode)
