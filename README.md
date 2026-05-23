@@ -1,4 +1,4 @@
-# DevPulse API
+# DevPulse
 
 An internal issue tracker REST API for software teams, built with Node.js, TypeScript, and PostgreSQL.
 
@@ -15,7 +15,7 @@ An internal issue tracker REST API for software teams, built with Node.js, TypeS
 ```bash
 npm install
 cp .env.example .env   # fill in your values
-npm run dev            # ts-node-dev with hot reload
+npm run dev
 ```
 
 ## Environment Variables
@@ -30,19 +30,11 @@ npm run dev            # ts-node-dev with hot reload
 
 ## Database
 
-Run `schema.sql` against your PostgreSQL instance to create the `users` and `issues` tables (with `updated_at` auto-refresh triggers):
+Run `schema.sql` against your PostgreSQL instance to create the `users` and `issues` tables (with `updated_at` auto-refresh triggers)
 
 ```bash
 psql $DATABASE_URL -f schema.sql
 ```
-
-## Scripts
-
-| Command | Description |
-|---|---|
-| `npm run dev` | Start dev server with hot reload |
-| `npm run build` | Compile TypeScript to `dist/` |
-| `npm start` | Run compiled server |
 
 ## API Reference
 
